@@ -1,0 +1,19 @@
+.DS_Store
+DerivedData/
+build/
+
+# Xcode per-user settings and breakpoints
+**/xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# Archives and exported builds
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
