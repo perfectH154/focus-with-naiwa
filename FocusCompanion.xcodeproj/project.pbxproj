@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* FocusCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* FocusCompanionApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* FocusTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* FocusTimer.swift */; };
+		A10000000000000000000004 /* LoopingVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* LoopingVideoView.swift */; };
+		A1000000000000000000000A /* FocusTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* FocusTimelineView.swift */; };
+		A10000000000000000000006 /* MilkEggReward.png in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* MilkEggReward.png */; };
+		A10000000000000000000007 /* MilkEggIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* MilkEggIcon.png */; };
+		A10000000000000000000008 /* MilkEggReading.png in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* MilkEggReading.png */; };
+		A10000000000000000000009 /* MilkEggSleeping.png in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* MilkEggSleeping.png */; };
+		A1000000000000000000000B /* FocusCompanionDark.mov in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* FocusCompanionDark.mov */; };
+		A1000000000000000000000C /* FocusCompanionLight.mov in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* FocusCompanionLight.mov */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* FocusCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCompanionApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* FocusTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimer.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* LoopingVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingVideoView.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* FocusCompanion/Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FocusCompanion/Resources; sourceTree = SOURCE_ROOT; };
+		B10000000000000000000006 /* MilkEggReward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MilkEggReward.png; sourceTree = "<group>"; };
+		B10000000000000000000007 /* MilkEggIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MilkEggIcon.png; sourceTree = "<group>"; };
+		B10000000000000000000008 /* MilkEggReading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MilkEggReading.png; sourceTree = "<group>"; };
+		B10000000000000000000009 /* MilkEggSleeping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MilkEggSleeping.png; sourceTree = "<group>"; };
+		B1000000000000000000000A /* FocusTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimelineView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* FocusCompanionDark.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Resources/FocusCompanionDark.mov; sourceTree = "<group>"; };
+		B1000000000000000000000C /* FocusCompanionLight.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Resources/FocusCompanionLight.mov; sourceTree = "<group>"; };
+		C10000000000000000000001 /* FocusCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				E10000000000000000000002 /* FocusCompanion */,
+				E10000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10000000000000000000002 /* FocusCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* FocusCompanionApp.swift */,
+				B10000000000000000000002 /* ContentView.swift */,
+				B10000000000000000000003 /* FocusTimer.swift */,
+				B10000000000000000000004 /* LoopingVideoView.swift */,
+				B10000000000000000000006 /* MilkEggReward.png */,
+				B10000000000000000000007 /* MilkEggIcon.png */,
+				B10000000000000000000008 /* MilkEggReading.png */,
+				B10000000000000000000009 /* MilkEggSleeping.png */,
+				B1000000000000000000000A /* FocusTimelineView.swift */,
+				B1000000000000000000000B /* FocusCompanionDark.mov */,
+				B1000000000000000000000C /* FocusCompanionLight.mov */,
+				B10000000000000000000005 /* FocusCompanion/Resources */,
+			);
+			path = FocusCompanion;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000001 /* FocusCompanion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10000000000000000000001 /* FocusCompanion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000003 /* Build configuration list for PBXNativeTarget "FocusCompanion" */;
+			buildPhases = (
+				D10000000000000000000001 /* Frameworks */,
+				D10000000000000000000002 /* Sources */,
+				D10000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusCompanion;
+			productName = FocusCompanion;
+			productReference = C10000000000000000000001 /* FocusCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10000000000000000000008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					F10000000000000000000001 = {
+						CreatedOnToolsVersion = 26.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F10000000000000000000002 /* Build configuration list for PBXProject "FocusCompanion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				zh_CN,
+			);
+			mainGroup = E10000000000000000000001;
+			productRefGroup = E10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10000000000000000000001 /* FocusCompanion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000006 /* MilkEggReward.png in Resources */,
+				A10000000000000000000007 /* MilkEggIcon.png in Resources */,
+				A10000000000000000000008 /* MilkEggReading.png in Resources */,
+				A10000000000000000000009 /* MilkEggSleeping.png in Resources */,
+				A1000000000000000000000B /* FocusCompanionDark.mov in Resources */,
+				A1000000000000000000000C /* FocusCompanionLight.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* FocusCompanionApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* FocusTimer.swift in Sources */,
+				A10000000000000000000004 /* LoopingVideoView.swift in Sources */,
+				A1000000000000000000000A /* FocusTimelineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10000000000000000000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F10000000000000000000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F10000000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "奶蛙专注";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focuswithnaiwa.FocusCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10000000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "奶蛙专注";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focuswithnaiwa.FocusCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000002 /* Build configuration list for PBXProject "FocusCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000004 /* Debug */,
+				F10000000000000000000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000003 /* Build configuration list for PBXNativeTarget "FocusCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000006 /* Debug */,
+				F10000000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10000000000000000000008 /* Project object */;
+}
